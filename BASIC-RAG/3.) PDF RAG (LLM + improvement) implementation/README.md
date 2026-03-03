@@ -286,4 +286,23 @@ content = generate_section(section_title, user_question)
 time.sleep(5)  # add inside the loop in generate_full_report()
 ```
 
+## Langsmith traces:
+LangSmith Traces in order
+https://smith.langchain.com/public/20b4a36a-e8e7-4db3-9435-6db59bf004d6/r
+https://smith.langchain.com/public/6b3ae726-2ddd-4cfc-abf5-c1dc38825af4/r
+https://smith.langchain.com/public/46eafc53-74c3-4595-8e94-fe89ac599418/r
+https://smith.langchain.com/public/141a88da-0bec-4a27-ac09-62817fde6755/r
+https://smith.langchain.com/public/d626d16d-289b-4555-83e9-296a35c05780/r
+https://smith.langchain.com/public/1d0212bd-ec02-4472-9e49-5ae225ab3aef/r
+https://smith.langchain.com/public/a1ad9cc8-a626-40eb-951e-92b492655878/r
+https://smith.langchain.com/public/c394bd45-1028-460b-84e1-3e43e79e0f6e/r
+https://smith.langchain.com/public/efb94108-a4be-460e-8b53-7693da38150b/r
+https://smith.langchain.com/public/7828756c-08a5-4da8-ac75-e2e92b399f8f/r
+https://smith.langchain.com/public/469fa813-7b69-4924-a0ab-ab9672a22b73/r
+https://smith.langchain.com/public/120fc734-761a-47d7-89c0-e131b1986db0/r
+https://smith.langchain.com/public/1931208a-54ca-431c-a697-bc9dba06b50e/r
+https://smith.langchain.com/public/72d82356-6f5c-4dd3-8687-30e963f10830/r
+https://smith.langchain.com/public/1352b700-4589-4fef-81a0-915a50b0651b/r
+https://smith.langchain.com/public/408feabf-2839-47e2-a71e-dc497e6efd0f/r
+https://smith.langchain.com/public/84eabd1b-b862-49dd-964c-9945d92e8b80/r
 **Section quality depends on chunk coverage** — If a section topic is spread thinly across the source documents, the retriever may not surface enough relevant content. Increasing `k` further or expanding `chunk_size` can help in those cases.
