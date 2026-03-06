@@ -193,5 +193,7 @@ class RAGManager:
                 "answer": answer,
                 "restaurants": restaurants,
             }
-        
+
+
+#Langsmith Trace: https://smith.langchain.com/public/cad263a3-4389-4d8c-9699-f3630a4e906b/r
         return rag_chain_with_history
