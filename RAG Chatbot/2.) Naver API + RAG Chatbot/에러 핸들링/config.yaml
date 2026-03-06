@@ -1,0 +1,9 @@
+rag_settings:
+  chunk_size: 1500
+  chunk_overlap: 200
+  model_name: "gpt-4o-mini"
+
+  # 네이버 API 설정
+  naver_search:
+    local_display: 5       # 지역(식당) 검색 결과 수
+    blog_display: 5        # 블로그(리뷰) 검색 결과 수
